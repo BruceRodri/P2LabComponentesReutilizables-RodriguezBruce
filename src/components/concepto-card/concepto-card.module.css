@@ -1,0 +1,34 @@
+.concepto-card {
+  background: white;
+  border-radius: 20px;
+  padding: 24px 20px;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.concepto-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12);
+}
+
+.imagen {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  margin-bottom: 16px;
+}
+
+.titulo {
+  font-size: 1.4rem;
+  color: #1e2a3a;
+  margin-bottom: 10px;
+}
+
+.descripcion {
+  font-size: 0.95rem;
+  color: #4a5568;
+  line-height: 1.5;
+}

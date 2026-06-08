@@ -1,0 +1,33 @@
+.header {
+  background: #1e2a3a;
+  color: white;
+  padding: 18px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.titulo {
+  font-size: 1.4rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.nav {
+  display: flex;
+  gap: 28px;
+}
+
+.items-menu {
+  color: #e2e8f0;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.items-menu:hover {
+  color: #ffd166;
+}

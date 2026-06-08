@@ -1,0 +1,26 @@
+.personajes {
+  text-align: center;
+}
+
+.titulo-pagina {
+  font-size: 2rem;
+  color: #2c3e50;
+  margin-bottom: 30px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 25px;
+  margin-top: 20px;
+}
+
+.estado {
+  text-align: center;
+  padding: 50px;
+  font-size: 1.2rem;
+}
+
+.error {
+  color: #dc3545;
+}
